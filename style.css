@@ -1,0 +1,55 @@
+.ui-checkboxradio-icon.ui-corner-all.ui-icon.ui-icon-background.ui-icon-blank {
+  display: none;
+}
+
+.fieldset {
+  margin-bottom: 20px;
+}
+
+.picker {
+  display: flex;
+  flex-direction: column;
+}
+
+.sliders {
+  width: 280px;
+  margin-top: 15px;
+  margin-right: 30px;
+}
+
+.sliders__slider {
+  margin-bottom: 30px;
+}
+
+.slider--red .ui-slider-range {
+  background: #ef2929;
+}
+
+.slider--red .ui-slider-handle {
+  border-color: #ef2929;
+}
+
+.slider--green .ui-slider-range {
+  background: #8ae234;
+}
+
+.slider--green .ui-slider-handle {
+  border-color: #8ae234;
+}
+
+.slider--blue .ui-slider-range {
+  background: #729fcf;
+}
+
+.slider--blue .ui-slider-handle {
+  border-color: #729fcf;
+}
+
+.swatch {
+  width: 200px;
+  height: 125px;
+  padding-top: 20px;
+
+  border-radius: 2px;
+  border: 2px solid #dbdbdb;
+}

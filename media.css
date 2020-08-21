@@ -1,0 +1,10 @@
+@media (min-width: 630px) {
+  .picker {
+    flex-direction: row;
+  }
+
+  .sliders {
+    width: 315px;
+    padding-left: 15px;
+  }
+}

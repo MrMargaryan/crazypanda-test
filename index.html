@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+  <fieldset class="fieldset">
+    <legend>Select:</legend>
+    <label for="color">color</label>
+    <input class="radio radio--color" type="radio" name="mode" id="color">
+    <label for="backgroundColor">backgroundColor</label>
+    <input class="radio radio--bgcolor" checked type="radio" name="mode" id="backgroundColor">
+  </fieldset>
+  <div class="picker">
+    <div class="sliders">
+      <div class="slider slider--red sliders__slider"></div>
+      <div class="slider slider--green sliders__slider"></div>
+      <div class="slider slider--blue sliders__slider"></div>
+    </div>
+
+    <div class="swatch">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nisi recusandae architecto corrupti quod
+      vel, repellat quibusdam voluptatum
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
